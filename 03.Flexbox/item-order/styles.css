@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+}
+
+.box-wrapper {
+    border: 8px solid #222;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.box {
+    border: 1px solid red;
+    width: 400px;
+   
+
+}
+
+.box1 {
+    background-color: gray;
+     /* order: 0; by default */
+     /* order: 0; */
+     order: 1;
+    
+}
+
+.box2 {
+    background-color: lightcoral;
+    /* order: 1; */
+    order: 0;
+
+}
+
+.box3 {
+    background-color: lightgoldenrodyellow;
+    order: 2;
+    
+}
+
+.box4 {
+    background-color: lightblue;
+}
+
+.box5 {
+    background-color: rgb(70, 107, 119);
+}

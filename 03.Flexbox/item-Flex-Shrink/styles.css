@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+}
+
+.box-wrapper {
+    border: 8px solid #222;
+    display: flex;
+    width: 1200px;
+
+}
+
+.box {
+
+    flex-basis: 600px;
+    /* flex-shrink: 1; */
+    
+
+}
+
+.box1 {
+    background-color: gray;
+    flex-shrink: 1;
+
+}
+
+.box2 {
+    background-color: lightcoral;
+    flex-shrink: 2;
+
+}
+
+.box3 {
+    background-color: lightgoldenrodyellow;
+    flex-shrink: 3;
+}
+
+/* 
+                    .item ==> flex
+
+ This is the shorthand for ===> flex-grow, flex-shrink and flex-basis <== combined.
+ The second and third parameters (flex-shrink and flex-basis) are optional. 
+ The default is 0 1 auto, but if you set it with a single number value, it’s like 1 0.
+
+.item {
+  flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+}
+ */
+
+.box4 {
+    background-color: lightblue;
+
+}
+
+.box5 {
+    background-color: rgb(70, 107, 119);
+}

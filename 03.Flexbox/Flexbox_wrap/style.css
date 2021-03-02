@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+}
+
+.box-wrapper{
+
+    border:8px solid #222;
+    display: flex;
+
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* flex-wrap:wrap-reverse ; */
+    /* height:900px; */
+
+    /* 
+    nowrap (default): all flex items will be on one line
+    wrap: flex items will wrap onto multiple lines, from top to bottom or => flex direction.
+    wrap-reverse: flex items will wrap onto multiple lines from bottom to top
+   */
+
+}
+.box{
+    
+    border: 1px solid red;
+    /* by default take default width but you can set also */
+    width: 500px;
+
+}
+.box1{
+    background-color:gray;
+}
+.box2{
+    background-color:lightcoral;
+}
+.box3{
+    background-color:lightgoldenrodyellow;
+}
+.box4{
+    background-color:lightblue;
+}
+.box5{
+    background-color:rgb(255, 180, 180);
+}
+

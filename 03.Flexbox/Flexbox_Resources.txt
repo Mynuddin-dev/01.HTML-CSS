@@ -1,0 +1,11 @@
+<!-- ------------------> Flexbox resources <---------------------- 
+
+1.https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+2.https://www.w3schools.com/css/css3_flexbox.asp
+3.https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox 
+4.https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+5.https://darekkay.com/dev/flexbox-cheatsheet.html
+->Properties for the parent element (the flex container) and the child elements (the flex items)
+
+--]>Flexbox container => Parent
+--]>Flexbox items => child

@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+}
+
+.box-wrapper {
+    border: 8px solid #222;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+   
+
+}
+
+.box {
+    border: 1px solid red;
+    /* width: 500px; */
+    flex-basis: 500px;
+    /* initial length to main axis */
+    
+}
+
+.box1 {
+    background-color: gray;
+    align-self: flex-start;
+}
+
+.box2 {
+    background-color: lightcoral;
+   
+
+}
+
+.box3 {
+    background-color: lightgoldenrodyellow;
+    align-self: flex-end;
+}
+
+.box4 {
+    background-color: lightblue;
+}
+
+.box5 {
+    background-color: rgb(70, 107, 119);
+}

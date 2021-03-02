@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+}
+
+.box-wrapper {
+    border: 8px solid #222;
+    display: flex;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content:center; */
+    /* justify-content: space-between ; */
+    /* justify-content: space-evenly; */
+    justify-content:space-around;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; than set height value and check */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    
+    /* align to main axis */
+    /* 
+
+    There are also two additional keywords you can pair with these values: safe and unsafe. Using safe ensures that however you do this type of positioning,
+    you can’t push an element such that it renders off-screen (e.g. off the top) in such a way the content can’t be scrolled too (called “data loss”).
+
+    */
+}
+
+.box {
+    border: 1px solid red;
+    width: 300px;
+}
+
+.box1 {
+    background-color: gray;
+}
+
+.box2 {
+    background-color: lightcoral;
+}
+
+.box3 {
+    background-color: lightgoldenrodyellow;
+}
+
+.box4 {
+    background-color: lightblue;
+}

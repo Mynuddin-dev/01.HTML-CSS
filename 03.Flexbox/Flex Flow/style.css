@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+}
+
+.box-wrapper {
+    border: 8px solid #222;
+
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
+
+    /* 
+    This is a shorthand for the flex-direction and flex-wrap properties,
+    which together define the flex container’s main and cross axes. 
+    The default value is row nowrap.
+     */
+
+
+}
+
+.box {
+    border: 1px solid red;
+
+}
+
+.box1 {
+    background-color: gray;
+}
+
+.box2 {
+    background-color: lightcoral;
+}
+
+.box3 {
+    background-color: lightgoldenrodyellow;
+}
+
+.box4 {
+    background-color: lightblue;
+}
+.box5 {
+    background-color: rgb(70, 107, 119);
+}

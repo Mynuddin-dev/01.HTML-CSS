@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+}
+
+.box-wrapper {
+    border: 8px solid #222;
+    display: flex;
+    width: 1200px;
+   
+}
+
+.box {
+    
+    flex-basis: 300px;
+    /* flex-grow: 0; */
+    /* flex-grow: 1; */
+
+}
+
+.box1 {
+    background-color: gray;
+    flex-grow: 1;
+}
+
+.box2 {
+    background-color: lightcoral;
+    flex-grow: 2;
+
+
+}
+
+.box3 {
+    background-color: lightgoldenrodyellow;
+    flex-grow: 1;
+}
+
+.box4 {
+    background-color: lightblue;
+
+}
+
+.box5 {
+    background-color: rgb(70, 107, 119);
+}

@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+}
+
+.box-wrapper {
+    border: 8px solid #222;
+    display: flex;
+    height: 700px;
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* align-items: baseline; */
+    align-items: flex-end;
+
+    /*  align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe; */
+
+
+    /* align to => cross axis */
+
+    /* change the flex direction and set the align items and enjoy */
+
+
+}
+
+.box {
+    border: 1px solid red;
+
+}
+
+.box1 {
+    background-color: gray;
+}
+
+.box2 {
+    background-color: lightcoral;
+}
+
+.box3 {
+    background-color: lightgoldenrodyellow;
+}
+
+.box4 {
+    background-color: lightblue;
+}

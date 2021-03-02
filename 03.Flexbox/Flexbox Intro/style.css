@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+}
+
+.box-wrapper {
+    border: 8px solid #222;
+    display: flex;
+}
+
+.box {
+    border: 1px solid red;
+
+}
+
+.box1 {
+    background-color: gray;
+}
+
+.box2 {
+    background-color: lightcoral;
+}
+
+.box3 {
+    background-color: lightgoldenrodyellow;
+}
+
+.box4 {
+    background-color: lightblue;
+}
