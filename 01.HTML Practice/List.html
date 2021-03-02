@@ -1,0 +1,154 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Its all About list</title>
+ </head>
+
+
+ <body>
+
+     <h3>Books and Teaching</h3>
+     <ul>
+         <li>Eat That Frog</li>
+         <li>Who Move My Chess</li>
+         <li>Sesh Bikeler Meye</li>
+         <li>Del Karnegi compositions</li>
+     </ul>
+
+     <ul style="list-style-type:disc;">
+         <li>Eat That Frog</li>
+         <li>Who Move My Chess</li>
+         <li>Sesh Bikeler Meye</li>
+         <li>Del Karnegi compositions</li>
+     </ul>
+     <ul style="list-style-type:none;">
+         <li>Eat That Frog</li>
+         <li>Who Move My Chess</li>
+         <li>Sesh Bikeler Meye</li>
+         <li>Del Karnegi compositions</li>
+     </ul>
+     <ul style="list-style-type:circle;">
+         <li>Eat That Frog</li>
+         <li>Who Move My Chess</li>
+         <li>Sesh Bikeler Meye</li>
+         <li>Del Karnegi compositions</li>
+     </ul>
+     <ul style="list-style-type:square;">
+         <li>Eat That Frog</li>
+         <li>Who Move My Chess</li>
+         <li>Sesh Bikeler Meye</li>
+         <li>Del Karnegi compositions</li>
+     </ul>
+     <hr size="3" noshade>
+     <h2>Description list</h2>
+     <dl>
+         <dt>Guiter</dt>
+         <dd>Guiter is 6 string Instrument</dd>
+         <dt>Ukelele</dt>
+         <dd>Ukelele is 4 string Instrument</dd>
+     </dl>
+
+     <hr size="3" noshade>
+     <h3>My Hobbies</h3>
+     <ol>
+         <li>Royel Enfield Motorcycles</li>
+         <li>Cycling</li>
+         <li>Online Games</li>
+         <li>Playing Badminton</li>
+     </ol>
+
+
+     <h2>Using Roman</h2>
+     <ol type="i">
+         <li>Introduction</li>
+         <li>List of Greivances</li>
+         <li>Conclusion</li>
+     </ol>
+     <ol type="I">
+         <li>Introduction</li>
+         <li>List of Greivances</li>
+         <li>Conclusion</li>
+     </ol>
+
+
+     <ol type="1">
+         <li>Introduction</li>
+         <li>List of Greivances</li>
+         <li>Conclusion</li>
+     </ol>
+     <ol type="a">
+         <li>Introduction</li>
+         <li>List of Greivances</li>
+         <li>Conclusion</li>
+     </ol>
+     <ol type="A">
+         <li>Introduction</li>
+         <li>List of Greivances</li>
+         <li>Conclusion</li>
+     </ol>
+
+
+
+     <ol type="I">
+         <li value="3">third item</li>
+         <li>fourth item</li>
+         <li>fifth item</li>
+     </ol>
+
+     <h2>Using the start attribute</h2>
+     <p>Finishing places of contestants not in the winners’ circle:</p>
+     <ol start="4">
+         <li>Speedwalk Stu</li>
+         <li>Saunterin’ Sam</li>
+         <li>Slowpoke Rodriguez</li>
+     </ol>
+     <!-- list css style =>https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type -->
+
+     <h2>Nesting lists</h2>
+     <ol>
+         <li>first item</li>
+         <li>second item
+             <!-- closing </li> tag not here! -->
+             <ol>
+                 <li>second item first subitem</li>
+                 <li>second item second subitem</li>
+                 <li>second item third subitem</li>
+             </ol>
+         </li> <!-- Here's the closing </li> tag -->
+         <li>third item</li>
+     </ol>
+
+     <h2>Unordered list inside ordered list</h2>
+     <ol>
+         <li>first item</li>
+         <li>second item
+             <!-- closing </li> tag not here! -->
+             <ul>
+                 <li>second item first subitem</li>
+                 <li>second item second subitem</li>
+                 <li>second item third subitem</li>
+             </ul>
+         </li> <!-- Here's the closing </li> tag -->
+         <li>third item</li>
+     </ol>
+
+     <h2>Ordered list inside unordered list</h2>
+     <ul>
+         <li>first item</li>
+         <li>second item
+             <!-- closing </li> tag not here! -->
+             <ol>
+                 <li>second item first subitem</li>
+                 <li>second item second subitem</li>
+                 <li>second item third subitem</li>
+             </ol>
+         </li> <!-- Here's the closing </li> tag -->
+         <li>third item</li>
+     </ul>
+
+ </body>
+
+ </html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS AND LABELS</title>
+</head>
+
+<body>
+    <pre><h3>F o r m s</h3></pre>
+    <form>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+    </form>
+    <h2>The select Element</h2>
+
+    <p>The select element defines a drop-down list:</p>
+    <form>
+        <label for="Food">Choose Food</label>
+        <select id="Food" name="Food">
+            <option value="Annde">Egg</option>
+            <option value="Dail">Dal</option>
+            <option value="Gorur gosto">Beef and Beef</option>
+            <option value="Sabji">Vegitable</option>
+        </select>
+    </form>
+    <hr noshade="2">
+    <form action="mailto:info@gmail.com" method="POST" enctype="text/plain">
+        <label for="Name">Your name :</label>
+        <input type="text" name="Name" id="Name" value=""><br><br>
+        <label for="Email">Your Email :</label>
+        <input type="email" name="Email" id="Email" value=""><br><br>
+        <label for="Password">Your Email password :</label>
+        <input type="password" name="Password" id="Password" value=""><br><br>
+        <label for="Message">Your Message</label>
+        <textarea name="Message" row="10" cols="80" id="Message"> </textarea><br><br>
+        <input type="Submit" name=" " value="Sign in">
+        <br><br>
+    </form>
+    <form>
+        <input type="radio">
+        <input type="file">
+        <input type="date">
+        <input type="checkbox">
+        <input type="color">
+        <input type="button" value="Button">
+        <input type="range">
+
+    </form>
+</body>
+
+</html>

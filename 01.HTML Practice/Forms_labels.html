@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms and Labels</title>
+</head>
+<body>
+    <pre><h2><u>F o r m s</u></h2></pre>
+    <form>
+        <!-- action ="" method="Get" "Post" Placeholde recquired........... -->
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter your name" required><br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Password" required><br><br>
+        <label for="mail">Email</label>
+        <input type="email" id="mail" placeholder="Enter your Email" required><br><br>
+        <P>Select your Gender</P>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <h3>Drop Down List</h3>
+        <label for="age-group">Select your age</label>
+            <select id="age-group" name="age-group">
+                <option value="5-10">5-10</option>
+                <option value="5-10">11-20</option>
+                <option value="5-10">21-30</option>
+                <option value="5-10">31-40</option>
+                <option value="5-10">41-50</option>
+            </select>
+        <br><br><br>
+        <label for="Messag">Your message</label>
+        <textarea  name="Message" rows="10" cols="80" id="Message" placeholder="Write your Opinion here"></textarea><br><br>
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
