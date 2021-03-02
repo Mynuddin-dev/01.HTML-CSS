@@ -1,0 +1,36 @@
+h1{
+    border: 20px dashed rgb(23, 5, 105);
+
+    /* padding-left: 60px;
+    padding-top: 50px;
+    padding-bottom:20px;
+    padding-right: 30px; */
+
+    /* all side equel */
+    padding:50px;
+
+    /* topbottom   and leftright */
+    /* padding: 40px 30px; */
+
+    /* top right bottom left */
+    /* padding:20px 30px  40px 50px; */
+
+
+
+    /* margin-left:30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 50px; */
+
+    /* margin: 50px; */
+
+    /* margin: 50px 60px; */
+
+    /* margin: 30px 40px 50px 60px; */
+    width:500px;
+    margin:50px auto;
+    text-align: center;
+
+    background-color: black;
+    color: white;    
+}

@@ -1,0 +1,22 @@
+p{
+    /* font-size:16px; by default */
+    font-size: 32px;
+    font-size: 48px;
+
+    /* 1 inch == 96px */
+    font-size: .5in;
+
+    /*  1 inch = 2.54 cm*/
+    font-size: 1.27;
+
+    /* 
+    in	=>inches (1in = 96px = 2.54cm)
+    px *=>	pixels (1px = 1/96th of 1in)
+    pt	=> points (1pt = 1/72 of 1in)
+    pc	=> picas (1pc = 12 pt)
+
+ */
+
+
+
+}

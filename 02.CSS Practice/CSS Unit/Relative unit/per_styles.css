@@ -1,0 +1,31 @@
+div {
+    border:2px solid red;
+    font-size: 10px;
+    /* width: 50%; */
+}
+
+
+
+p{
+    /* font-size : 16px;
+    font-size : 100%; */
+
+    /* font-size : 32px;
+    font-size : 200%; */
+
+    font-size : 400%;
+    /* its depending on parents value */
+    border:2px solid green;
+    width:50%;
+    background-color:gray;
+    margin: 4px auto;
+    /* margin-left: 25%; */
+
+
+}
+
+
+
+/* It’s not always clear which of these options is best to use for each type of 
+CSS property. For example, % is usually more appropriate for layout-related properties
+like width than it would be for font-size. */

@@ -1,0 +1,46 @@
+Absolute Lengths
+================
+The absolute length units are fixed and a length expressed in any of these will appear as exactly that size.
+
+Absolute length units are not recommended for use on screen, because screen sizes vary so much. However, they can be used if the output medium is known, such as for print layout.
+
+Absolute units can be useful when working on a project where "responsiveness" is not being considered.
+                                                            ------------------------------------------
+For example, desktop apps that can’t be resized can be styled for the default dimensions. If the window 
+doesn’t scale, you don’t need the content to either.
+
+Hint: Absolute units can be less favourable for "responsive" sites because they don’t scale when the screen
+size changes.
+
+
+
+Relative Units
+===============
+Relative units are useful for styling **responsive** sites because they scale relative to the parent or window size
+                                      ---------------------
+(depending on the unit).
+
+As a general rule, relative units can be used as the default for responsive sites. This can help you avoid having
+                    -------------------------------------------------------------                
+to update styles for different screen sizes.
+
+Relative units can be a little more difficult than absolute units in determining which to use, so let’s go through
+your options in detail.
+
+
+Relative Unit   	                Description
+------------------------------------------------------------------------------------
+%	              Relative to the parent element’s value for that property
+em                Relative to the current font-size of the element
+rem            	  Relative to the font-size of the root (e.g. the <html> element). “rem” = “root em”
+ch	              Number of characters (1 character is equal to the width of the current font’s 0/zero)
+vh	              Relative to the height of the viewport (window or app size). 1vh = 1/100 of the viewport’s height
+vw	              Relative to the width of viewport. 1vw = 1/100 of the viewport’s width.
+vmin	          Relative to viewport’s smaller dimension (e.g. for portrait orientation, the width is smaller than the height so it’s relative to the width). 1vmin = 1/100 of viewport’s smaller dimension.
+vmax              Relative to viewport’s larger dimension (e.g. height for portrait orientation). 1vmax = 1/100 of viewport’s larger dimension.
+ex	              Relative to height of the current font’s lowercase “x”.
+
+
+
+absulate and relative units
+https://www.digitalocean.com/community/tutorials/css-css-units-explained

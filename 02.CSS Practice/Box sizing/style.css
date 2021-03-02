@@ -1,0 +1,24 @@
+hr{
+    width: 500px;
+    margin-left: 0px;
+    border: 1px dashed black;
+}
+
+.box2{
+    box-sizing: border-box;
+    width: 500px;
+    background-color: lightcoral;
+    border: 10px solid red;
+    padding: 50px;
+}
+
+.box1{
+    box-sizing: content-box;
+    /* this sizing is by default */
+    width: 500px;
+    background-color: lightcoral;
+    border: 10px solid red;
+    padding: 50px;
+    margin-top:30px;
+
+}

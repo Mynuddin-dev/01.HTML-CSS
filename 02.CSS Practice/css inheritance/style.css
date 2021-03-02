@@ -1,0 +1,21 @@
+body{
+    color:rgb(4, 44, 97);
+}
+
+/* u can overrite inheritance value */
+
+h1{
+    color:brown;
+}
+.div1{
+    color:rgb(83, 5, 57);
+}
+
+.div2{
+    color:green;
+}
+
+a{
+    color:rgba(43, 1, 1, 0.979);
+    text-decoration:none;
+}

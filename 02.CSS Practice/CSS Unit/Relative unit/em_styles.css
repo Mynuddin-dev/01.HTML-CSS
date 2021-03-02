@@ -1,0 +1,18 @@
+h1{
+    /* by default er double (2em) */
+    font-size: 2em;
+    border: 2em solid red;
+    /* 2*2*16 */
+    padding: 3em
+}
+
+.box{
+    font-size:20px;
+    /* 40 em */
+    /* 2*2*20 */
+}
+
+
+/* its all related to parent child relationship */
+/* em: You want the font of a child element to be half the size of its parent’s font-size
+ (e.g. the paragraph under a section’s title) */

@@ -1,0 +1,13 @@
+.box1{
+    /* height: 100vh; */
+
+    
+    /* height: 100vmin; */
+    height: 100vmax;
+    /* if vw small its do it same
+        if vh small its do it same  
+        vw vh
+    */
+    background-color:rgb(56, 5, 5);
+
+}

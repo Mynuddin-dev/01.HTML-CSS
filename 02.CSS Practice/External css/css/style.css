@@ -1,0 +1,21 @@
+    body {
+        background-color: #9cd6d2;
+    }
+
+    hr {
+        border-style: none;
+        border-top-style: dotted;
+        border-color: grey;
+        border-width: 5px;
+        width: 15%;
+
+    }
+    h1,h2,h3{
+        color:#018a8a
+    }
+    img{
+        border-radius: 100%;
+    }
+    body{
+        font-family: Ubuntu;
+    }

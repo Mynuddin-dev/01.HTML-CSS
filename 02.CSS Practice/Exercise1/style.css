@@ -1,0 +1,16 @@
+.div1{
+    background-color:rgb(139, 139, 148);
+}
+.div2{
+    background-color:rgb(152, 154, 156);
+}
+
+h2,h3{
+    color:rgb(13, 110, 122);
+}
+body{
+    font-family:monospace;
+}
+span{
+    background-color:rgb(236, 240, 44);
+}

@@ -1,0 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+body{
+    /* font-family: sans-serif; */
+    font-family: 'Ubuntu',sans-serif;
+    font-size:large;
+
+    background-color:rgb(98, 220, 241);
+}
